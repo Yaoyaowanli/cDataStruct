@@ -14,6 +14,14 @@ stdio.h
 stdlib.h
 -
 
+/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Queue-h/Queue.h
+stdio.h
+-
+assert.h
+-
+stdlib.h
+-
+
 /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h
 stdio.h
 -
@@ -30,17 +38,13 @@ assert.h
 stdlib.h
 -
 
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/List/List.c
-../../头文件/List/List.h
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h
-
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SList/SList.c
-../../头文件/SList-h/SList.h
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h
-
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SeqList/SeqList.c
-../../头文件/SeqList-h/SeqList.h
-/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SeqList-h/SeqList.h
+/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
 
 /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/main.c
 ../头文件/SeqList-h/SeqList.h
@@ -49,4 +53,8 @@ stdlib.h
 /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h
 ../头文件/List/List.h
 /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h
+../头文件/Stack-h/Stack.h
+/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h
+../头文件/Queue-h/Queue.h
+/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Queue-h/Queue.h
 

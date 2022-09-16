@@ -169,6 +169,33 @@ C_SeqList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/List/List.c.s
 .PHONY : 源文件/List/List.c.s
 
+源文件/Queue/Queue.o: 源文件/Queue/Queue.c.o
+
+.PHONY : 源文件/Queue/Queue.o
+
+# target to build an object file
+源文件/Queue/Queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.o
+.PHONY : 源文件/Queue/Queue.c.o
+
+源文件/Queue/Queue.i: 源文件/Queue/Queue.c.i
+
+.PHONY : 源文件/Queue/Queue.i
+
+# target to preprocess a source file
+源文件/Queue/Queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.i
+.PHONY : 源文件/Queue/Queue.c.i
+
+源文件/Queue/Queue.s: 源文件/Queue/Queue.c.s
+
+.PHONY : 源文件/Queue/Queue.s
+
+# target to generate assembly for a file
+源文件/Queue/Queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.s
+.PHONY : 源文件/Queue/Queue.c.s
+
 源文件/SList/SList.o: 源文件/SList/SList.c.o
 
 .PHONY : 源文件/SList/SList.o
@@ -223,6 +250,33 @@ C_SeqList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/SeqList/SeqList.c.s
 .PHONY : 源文件/SeqList/SeqList.c.s
 
+源文件/Stack/Stack.o: 源文件/Stack/Stack.c.o
+
+.PHONY : 源文件/Stack/Stack.o
+
+# target to build an object file
+源文件/Stack/Stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.o
+.PHONY : 源文件/Stack/Stack.c.o
+
+源文件/Stack/Stack.i: 源文件/Stack/Stack.c.i
+
+.PHONY : 源文件/Stack/Stack.i
+
+# target to preprocess a source file
+源文件/Stack/Stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.i
+.PHONY : 源文件/Stack/Stack.c.i
+
+源文件/Stack/Stack.s: 源文件/Stack/Stack.c.s
+
+.PHONY : 源文件/Stack/Stack.s
+
+# target to generate assembly for a file
+源文件/Stack/Stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.s
+.PHONY : 源文件/Stack/Stack.c.s
+
 源文件/main.o: 源文件/main.c.o
 
 .PHONY : 源文件/main.o
@@ -262,12 +316,18 @@ help:
 	@echo "... 源文件/List/List.o"
 	@echo "... 源文件/List/List.i"
 	@echo "... 源文件/List/List.s"
+	@echo "... 源文件/Queue/Queue.o"
+	@echo "... 源文件/Queue/Queue.i"
+	@echo "... 源文件/Queue/Queue.s"
 	@echo "... 源文件/SList/SList.o"
 	@echo "... 源文件/SList/SList.i"
 	@echo "... 源文件/SList/SList.s"
 	@echo "... 源文件/SeqList/SeqList.o"
 	@echo "... 源文件/SeqList/SeqList.i"
 	@echo "... 源文件/SeqList/SeqList.s"
+	@echo "... 源文件/Stack/Stack.o"
+	@echo "... 源文件/Stack/Stack.i"
+	@echo "... 源文件/Stack/Stack.s"
 	@echo "... 源文件/main.o"
 	@echo "... 源文件/main.i"
 	@echo "... 源文件/main.s"

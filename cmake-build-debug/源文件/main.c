@@ -1,6 +1,11 @@
 #include "../头文件/SeqList-h/SeqList.h"
 #include "../头文件/SList-h/SList.h"
 #include "../头文件/List/List.h"
+#include "../头文件/Stack-h/Stack.h"
+#include "../头文件/Queue-h/Queue.h"
+
+
+
 
 
 //测试头尾的插入删除
@@ -195,13 +200,75 @@ void TestList2(){
 
 }
 
+void TestStack1(){
+    Stack st ;
+    StackInit(&st);
+
+    StackPush(&st,1);
+    StackPush(&st,2);
+    StackPush(&st,3);
+    StackPush(&st,4);
+    StackPush(&st,5);
+
+    while (! StackEmpty(&st)){
+        printf("%d   ", StackTop(&st));
+        StackPop(&st);
+    }
+    printf("\n");
+
+    StackDestory(&st);
+}
+
+void TestQueue1(){
+    Queue que ;
+    QueueInit(&que);
+    QueuePush(&que,1);
+    QueuePush(&que,2);
+    QueuePush(&que,3);
+    QueuePush(&que,4);
+    QueuePush(&que,5);
+    printf("queue lens is: %d \n", QueueSize(&que));
+    printf("%d ", QueueFront(&que));
+    QueuePop(&que);
+    printf("%d ", QueueFront(&que));
+    QueuePop(&que);
+    printf("%d ", QueueFront(&que));
+    QueuePop(&que);
+    printf("%d ", QueueFront(&que));
+    QueuePop(&que);
+    printf("%d ", QueueFront(&que));
+    QueuePop(&que);
+    printf("queue is empty?  %d\n", QueueEmpty(&que));
+    printf("--------------------------------------------------\n");
+    QueuePush(&que,1);
+    QueuePush(&que,2);
+    QueuePush(&que,3);
+    QueuePush(&que,4);
+    QueuePush(&que,5);
+    /*printf("queue size is : %d\n", QueueSize(&que));
+    printf("%d ",QueueBack(&que));
+    QueuePop(&que);
+    printf("%d ",QueueBack(&que));
+    QueuePop(&que);
+    printf("%d ",QueueBack(&que));
+    QueuePop(&que);
+    printf("%d ",QueueBack(&que));
+    QueuePop(&que);
+    printf("%d ",QueueBack(&que));
+    QueuePop(&que);*/
+
+    QueueDestroy(&que);
+}
+
 
 int main() {
     //TestSeqList1();
     //TestSList1();
     //TestSList2();
     //TestList1();
-    TestList2();
+    //TestList2();
+    //TestStack1();
+    //TestQueue1();
 
     return 0;
 }

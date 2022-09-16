@@ -81,19 +81,31 @@
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h">
 			<Option target="C_SeqList"/>
 		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Queue-h/Queue.h">
+			<Option target="C_SeqList"/>
+		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SeqList-h/SeqList.h">
 			<Option target="C_SeqList"/>
 		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h">
+			<Option target="C_SeqList"/>
+		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/List/List.c">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Queue/Queue.c">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SList/SList.c">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SeqList/SeqList.c">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Stack/Stack.c">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/main.c">

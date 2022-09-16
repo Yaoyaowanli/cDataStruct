@@ -4,14 +4,22 @@
 CMakeFiles/C_SeqList.dir/源文件/List/List.c.o
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/List/List.c
+CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.o
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Queue-h/Queue.h
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Queue/Queue.c
 CMakeFiles/C_SeqList.dir/源文件/SList/SList.c.o
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SList/SList.c
 CMakeFiles/C_SeqList.dir/源文件/SeqList/SeqList.c.o
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SeqList-h/SeqList.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SeqList/SeqList.c
+CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.o
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Stack/Stack.c
 CMakeFiles/C_SeqList.dir/源文件/main.c.o
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Queue-h/Queue.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SList-h/SList.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SeqList-h/SeqList.h
+ /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h
  /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/main.c
