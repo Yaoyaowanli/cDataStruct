@@ -3,6 +3,10 @@
 #include "../头文件/List/List.h"
 #include "../头文件/Stack-h/Stack.h"
 #include "../头文件/Queue-h/Queue.h"
+#include "../头文件/Heap-h/Heap.h"
+#include "/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Sort-h/Sort.h"
+#include "../头文件/TopK-h/TopK.h"
+#include "../头文件/BinaryTree-h/BinaryTree.h"
 
 
 
@@ -261,6 +265,90 @@ void TestQueue1(){
 }
 
 
+void TestHeap1(){
+    int arr[] = {93,80,48,18,30,72,53,36,15,35,45};
+    Heap hp;
+    HeapInit(&hp,arr, sizeof(arr)/ sizeof(arr[0]));
+
+    for (int i =0 ; i< hp._size ; i++){
+        printf("%d ",hp._a[i]);
+    }
+    printf("\n-------------------------------\n");
+    HeapPush(&hp,13);
+    for (int i =0 ; i< hp._size ; i++){
+        printf("%d ",hp._a[i]);
+    }
+    HeapDestroy(&hp);
+}
+
+void TestHeapSort1(){
+    int arr[] = {93,80,48,18,30,72,53,36,15,35,45};
+    int n = sizeof(arr)/ sizeof(arr[0]);
+    MyHeapSort(arr,n);
+    for (int i=0; i<n;i++){
+        printf("%d  ",arr[i]);
+    }
+}
+
+
+void TestTopK1(){
+    int arr[] = {93,80,48,18,30,72,53,36,15,35,45,123,421,3,55,2,99,14,33,66};
+    int k = 5;
+    TopMinK(arr,k, sizeof(arr)/ sizeof(arr[0]));
+    printf("TopMinK ：");
+    for (int i=0; i<k;i++){
+        printf("%d  ",arr[i]);
+    }
+    printf("\n");
+
+    printf("TopMaxK ：");
+    TopMaxK(arr,k,sizeof(arr)/ sizeof(arr[0]));
+    for (int i=0; i<k;i++){
+        printf("%d  ",arr[i]);
+    }
+    printf("\n");
+}
+
+
+
+
+BTNode* CreateNode(int x){
+    BTNode *node = (BTNode*) malloc(sizeof(BTNode));
+    node->_data = x;
+    node->_left = node->_right = NULL;
+    return node;
+}
+
+
+void TestBinaryTree1(){
+    BTNode *a = CreateNode('A');
+    BTNode *b = CreateNode('B');
+    BTNode *c = CreateNode('C');
+    BTNode *d = CreateNode('D');
+    BTNode *e = CreateNode('E');
+
+    a->_left = b;
+    a->_right = c;
+    b->_left = d;
+    b->_right = e;
+    PrevOrder(a);
+    printf("\n");
+    InOrder(a);
+    printf("\n");
+    PostOrder(a);
+    printf("\n");
+
+    printf("TreeSize = %d\n", TreeSize(a));
+    printf("TreeSize = %d\n", TreeSize(a));
+
+
+
+    printf("TreeLeafSize = %d\n", TreeLeafSize(a));
+    printf("TreeLeafSize = %d\n", TreeLeafSize(d));
+
+}
+
+
 int main() {
     //TestSeqList1();
     //TestSList1();
@@ -269,6 +357,10 @@ int main() {
     //TestList2();
     //TestStack1();
     //TestQueue1();
+    //TestHeap1();
+    //TestHeapSort1();
+    //TestTopK1();
+    TestBinaryTree1();
 
     return 0;
 }

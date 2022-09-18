@@ -142,6 +142,60 @@ C_SeqList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/build
 .PHONY : C_SeqList/fast
 
+源文件/BinaryTree/BinaryTree.o: 源文件/BinaryTree/BinaryTree.c.o
+
+.PHONY : 源文件/BinaryTree/BinaryTree.o
+
+# target to build an object file
+源文件/BinaryTree/BinaryTree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o
+.PHONY : 源文件/BinaryTree/BinaryTree.c.o
+
+源文件/BinaryTree/BinaryTree.i: 源文件/BinaryTree/BinaryTree.c.i
+
+.PHONY : 源文件/BinaryTree/BinaryTree.i
+
+# target to preprocess a source file
+源文件/BinaryTree/BinaryTree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.i
+.PHONY : 源文件/BinaryTree/BinaryTree.c.i
+
+源文件/BinaryTree/BinaryTree.s: 源文件/BinaryTree/BinaryTree.c.s
+
+.PHONY : 源文件/BinaryTree/BinaryTree.s
+
+# target to generate assembly for a file
+源文件/BinaryTree/BinaryTree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.s
+.PHONY : 源文件/BinaryTree/BinaryTree.c.s
+
+源文件/Heap/Heap.o: 源文件/Heap/Heap.c.o
+
+.PHONY : 源文件/Heap/Heap.o
+
+# target to build an object file
+源文件/Heap/Heap.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o
+.PHONY : 源文件/Heap/Heap.c.o
+
+源文件/Heap/Heap.i: 源文件/Heap/Heap.c.i
+
+.PHONY : 源文件/Heap/Heap.i
+
+# target to preprocess a source file
+源文件/Heap/Heap.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.i
+.PHONY : 源文件/Heap/Heap.c.i
+
+源文件/Heap/Heap.s: 源文件/Heap/Heap.c.s
+
+.PHONY : 源文件/Heap/Heap.s
+
+# target to generate assembly for a file
+源文件/Heap/Heap.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.s
+.PHONY : 源文件/Heap/Heap.c.s
+
 源文件/List/List.o: 源文件/List/List.c.o
 
 .PHONY : 源文件/List/List.o
@@ -250,6 +304,33 @@ C_SeqList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/SeqList/SeqList.c.s
 .PHONY : 源文件/SeqList/SeqList.c.s
 
+源文件/Sort/HeapSort/HeapSort.o: 源文件/Sort/HeapSort/HeapSort.c.o
+
+.PHONY : 源文件/Sort/HeapSort/HeapSort.o
+
+# target to build an object file
+源文件/Sort/HeapSort/HeapSort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o
+.PHONY : 源文件/Sort/HeapSort/HeapSort.c.o
+
+源文件/Sort/HeapSort/HeapSort.i: 源文件/Sort/HeapSort/HeapSort.c.i
+
+.PHONY : 源文件/Sort/HeapSort/HeapSort.i
+
+# target to preprocess a source file
+源文件/Sort/HeapSort/HeapSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.i
+.PHONY : 源文件/Sort/HeapSort/HeapSort.c.i
+
+源文件/Sort/HeapSort/HeapSort.s: 源文件/Sort/HeapSort/HeapSort.c.s
+
+.PHONY : 源文件/Sort/HeapSort/HeapSort.s
+
+# target to generate assembly for a file
+源文件/Sort/HeapSort/HeapSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.s
+.PHONY : 源文件/Sort/HeapSort/HeapSort.c.s
+
 源文件/Stack/Stack.o: 源文件/Stack/Stack.c.o
 
 .PHONY : 源文件/Stack/Stack.o
@@ -276,6 +357,33 @@ C_SeqList/fast:
 源文件/Stack/Stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.s
 .PHONY : 源文件/Stack/Stack.c.s
+
+源文件/TopK/TopK.o: 源文件/TopK/TopK.c.o
+
+.PHONY : 源文件/TopK/TopK.o
+
+# target to build an object file
+源文件/TopK/TopK.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o
+.PHONY : 源文件/TopK/TopK.c.o
+
+源文件/TopK/TopK.i: 源文件/TopK/TopK.c.i
+
+.PHONY : 源文件/TopK/TopK.i
+
+# target to preprocess a source file
+源文件/TopK/TopK.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.i
+.PHONY : 源文件/TopK/TopK.c.i
+
+源文件/TopK/TopK.s: 源文件/TopK/TopK.c.s
+
+.PHONY : 源文件/TopK/TopK.s
+
+# target to generate assembly for a file
+源文件/TopK/TopK.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/C_SeqList.dir/build.make CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.s
+.PHONY : 源文件/TopK/TopK.c.s
 
 源文件/main.o: 源文件/main.c.o
 
@@ -313,6 +421,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... C_SeqList"
+	@echo "... 源文件/BinaryTree/BinaryTree.o"
+	@echo "... 源文件/BinaryTree/BinaryTree.i"
+	@echo "... 源文件/BinaryTree/BinaryTree.s"
+	@echo "... 源文件/Heap/Heap.o"
+	@echo "... 源文件/Heap/Heap.i"
+	@echo "... 源文件/Heap/Heap.s"
 	@echo "... 源文件/List/List.o"
 	@echo "... 源文件/List/List.i"
 	@echo "... 源文件/List/List.s"
@@ -325,9 +439,15 @@ help:
 	@echo "... 源文件/SeqList/SeqList.o"
 	@echo "... 源文件/SeqList/SeqList.i"
 	@echo "... 源文件/SeqList/SeqList.s"
+	@echo "... 源文件/Sort/HeapSort/HeapSort.o"
+	@echo "... 源文件/Sort/HeapSort/HeapSort.i"
+	@echo "... 源文件/Sort/HeapSort/HeapSort.s"
 	@echo "... 源文件/Stack/Stack.o"
 	@echo "... 源文件/Stack/Stack.i"
 	@echo "... 源文件/Stack/Stack.s"
+	@echo "... 源文件/TopK/TopK.o"
+	@echo "... 源文件/TopK/TopK.i"
+	@echo "... 源文件/TopK/TopK.s"
 	@echo "... 源文件/main.o"
 	@echo "... 源文件/main.i"
 	@echo "... 源文件/main.s"

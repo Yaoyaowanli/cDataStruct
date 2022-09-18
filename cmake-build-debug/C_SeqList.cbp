@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/BinaryTree-h/BinaryTree.h">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Heap-h/Heap.h">
+			<Option target="C_SeqList"/>
+		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/List/List.h">
 			<Option target="C_SeqList"/>
 		</Unit>
@@ -90,7 +96,19 @@
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/SeqList-h/SeqList.h">
 			<Option target="C_SeqList"/>
 		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Sort-h/Sort.h">
+			<Option target="C_SeqList"/>
+		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/Stack-h/Stack.h">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/头文件/TopK-h/TopK.h">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/BinaryTree/BinaryTree.c">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Heap/Heap.c">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/List/List.c">
@@ -105,7 +123,13 @@
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/SeqList/SeqList.c">
 			<Option target="C_SeqList"/>
 		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Sort/HeapSort/HeapSort.c">
+			<Option target="C_SeqList"/>
+		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Stack/Stack.c">
+			<Option target="C_SeqList"/>
+		</Unit>
+		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/TopK/TopK.c">
 			<Option target="C_SeqList"/>
 		</Unit>
 		<Unit filename="/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/main.c">

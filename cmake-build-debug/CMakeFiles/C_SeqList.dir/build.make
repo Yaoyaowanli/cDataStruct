@@ -154,6 +154,58 @@ CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Queue/Queue.c -o CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.s
 
+CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o: CMakeFiles/C_SeqList.dir/flags.make
+CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o: 源文件/Heap/Heap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o -c /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Heap/Heap.c
+
+CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Heap/Heap.c > CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.i
+
+CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Heap/Heap.c -o CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.s
+
+CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o: CMakeFiles/C_SeqList.dir/flags.make
+CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o: 源文件/Sort/HeapSort/HeapSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o -c /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Sort/HeapSort/HeapSort.c
+
+CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Sort/HeapSort/HeapSort.c > CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.i
+
+CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/Sort/HeapSort/HeapSort.c -o CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.s
+
+CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o: CMakeFiles/C_SeqList.dir/flags.make
+CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o: 源文件/TopK/TopK.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o -c /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/TopK/TopK.c
+
+CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/TopK/TopK.c > CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.i
+
+CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/TopK/TopK.c -o CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.s
+
+CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o: CMakeFiles/C_SeqList.dir/flags.make
+CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o: 源文件/BinaryTree/BinaryTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o -c /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/BinaryTree/BinaryTree.c
+
+CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/BinaryTree/BinaryTree.c > CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.i
+
+CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/源文件/BinaryTree/BinaryTree.c -o CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.s
+
 # Object files for target C_SeqList
 C_SeqList_OBJECTS = \
 "CMakeFiles/C_SeqList.dir/源文件/main.c.o" \
@@ -161,7 +213,11 @@ C_SeqList_OBJECTS = \
 "CMakeFiles/C_SeqList.dir/源文件/SList/SList.c.o" \
 "CMakeFiles/C_SeqList.dir/源文件/List/List.c.o" \
 "CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.o" \
-"CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.o"
+"CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.o" \
+"CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o" \
+"CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o" \
+"CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o" \
+"CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o"
 
 # External object files for target C_SeqList
 C_SeqList_EXTERNAL_OBJECTS =
@@ -172,9 +228,13 @@ C_SeqList: CMakeFiles/C_SeqList.dir/源文件/SList/SList.c.o
 C_SeqList: CMakeFiles/C_SeqList.dir/源文件/List/List.c.o
 C_SeqList: CMakeFiles/C_SeqList.dir/源文件/Stack/Stack.c.o
 C_SeqList: CMakeFiles/C_SeqList.dir/源文件/Queue/Queue.c.o
+C_SeqList: CMakeFiles/C_SeqList.dir/源文件/Heap/Heap.c.o
+C_SeqList: CMakeFiles/C_SeqList.dir/源文件/Sort/HeapSort/HeapSort.c.o
+C_SeqList: CMakeFiles/C_SeqList.dir/源文件/TopK/TopK.c.o
+C_SeqList: CMakeFiles/C_SeqList.dir/源文件/BinaryTree/BinaryTree.c.o
 C_SeqList: CMakeFiles/C_SeqList.dir/build.make
 C_SeqList: CMakeFiles/C_SeqList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable C_SeqList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yaoyuan/C:C++_Code/CDataStruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable C_SeqList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_SeqList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
